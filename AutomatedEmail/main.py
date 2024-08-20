@@ -4,7 +4,7 @@ import random
 import smtplib
 
 my_email="saishsail1@gmail.com"
-password="sycjerukdpmgqtmf"
+password="*************"
 today=(datetime.now().month,datetime.now().day)
 data=pandas.read_csv("events.csv")
 events_dict = {(data_row["month"], data_row["day"]):data_row for (index, data_row) in data.iterrows()}
